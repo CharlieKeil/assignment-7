@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.masthead {
+  background-image: url("../img/beetle.svg"), url("../img/beetle.svg"), url("../img/masthead-bg.png");
+  background-size: 75px auto, 75px auto, 200px auto;
+  padding-top: 6em;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left, right, left top;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+}
