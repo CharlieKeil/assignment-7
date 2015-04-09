@@ -153,6 +153,22 @@ img {
   margin-top: 87%;
 }
 
+.antbtn:hover {
+  background-image: linear-gradient(to bottom, #388200, #214D00);
+}
+
+.stagbtn:hover {
+  background-image: linear-gradient(to bottom, #388200, #214D00);
+}
+
+.dungbtn:hover {
+  background-image: linear-gradient(to bottom, #388200, #214D00);
+}
+
+.tortbtn:hover {
+  background-image: linear-gradient(to bottom, #388200, #214D00);
+}
+
 .bbeetle {
   background-image: url("../img/beetle.svg");
   background-size: 40px auto;
