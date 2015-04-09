@@ -17,6 +17,7 @@ body {
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: left top 10px, right top 10px, left top;
   text-align: center;
+  overflow: hidden;
 }
 
 h1 {
@@ -25,21 +26,36 @@ h1 {
   margin: 0;
 }
 
-nav ol {
-  list-style-type: none;
+.nav-top {
+  width: 100%
+}
+
+.ul-top {
   padding: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
-nav ol li {
+.li-top {
+  list-style-type: none;
   display: inline-block;
-
+  background-color: #512200;
+  width: 25%;
+  float: left;
+  padding: 0.5em 0;
+  opacity: 0.5;
 }
 
-nav ol li a {
-  background-color: #512200;
-  font-family: 'Dosis', sans-serif;
-  display: block;
+.li-top:hover {
+  opacity: 0.75;
+}
+
+.a-top {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+  text-align:center;
 }
 
 .banner {
@@ -99,7 +115,7 @@ img {
 
 .antbtn {
   display: inline-block;
-  padding: 0.5em 2em;
+  padding: 0em 2em;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
@@ -113,7 +129,7 @@ img {
 
 .stagbtn {
   display: inline-block;
-  padding: 0.5em 2em;
+  padding: 0em 2em;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
@@ -127,7 +143,7 @@ img {
 
 .dungbtn {
   display: inline-block;
-  padding: 0.5em 2em;
+  padding: 0em 2em;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
@@ -141,7 +157,7 @@ img {
 
 .tortbtn {
   display: inline-block;
-  padding: 0.5em 2em;
+  padding: 0em 2em;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
