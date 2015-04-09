@@ -1,20 +1,166 @@
 html {
   box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .masthead {
   background-image: url("../img/beetle.svg"), url("../img/beetle.svg"), url("../img/masthead-bg.png");
-  background-size: 75px auto, 75px auto, 200px auto;
-  padding-top: 6em;
+  background-size: 40px auto, 40px auto, 150px auto;
   background-repeat: no-repeat, no-repeat, repeat;
-  background-position: left, right, left top;
+  background-position: left top 10px, right top 10px, left top;
   text-align: center;
 }
 
 h1 {
   font-family: 'Dosis', sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+nav ol {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+nav ol li {
+  display: inline-block;
+
+}
+
+nav ol li a {
+  background-color: #512200;
+  font-family: 'Dosis', sans-serif;
+  display: block;
+}
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  width: 100%
+}
+
+.figcap {
+  width: 100%;
+  font-size: 1.1rem;
+  margin: 0;
+  color: white;
+  text-align: center;
+  padding: 1em 4em;
+  position: absolute;
+  bottom: 0%;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+  clear: both;
+  }
+
+.ant {
+  max-width: 50%;
+  margin: 0;
+  float: left;
+  clear: left;
+  position: relative;
+}
+
+.stag {
+  max-width: 50%;
+  margin: 0;
+  float: right;
+  clear: right;
+  position: relative;
+}
+
+.dung {
+  max-width: 50%;
+  margin: 0;
+  float: left;
+  clear: left;
+  position: relative;
+}
+
+.tort {
+  max-width: 50%;
+  margin: 0;
+  float: right;
+  clear: right;
+  position: relative;
+}
+
+.antbtn {
+  display: inline-block;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #A8AE98;
+  background-image: linear-gradient(to bottom, #6FC000, #388200);
+  font-family: 'Dosis', sans-serif;
+  position: absolute;
+  left: 10%;
+  margin-top: 36%;
+}
+
+.stagbtn {
+  display: inline-block;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #A8AE98;
+  background-image: linear-gradient(to bottom, #6FC000, #388200);
+  font-family: 'Dosis', sans-serif;
+  position: absolute;
+  right: 15%;
+  margin-top: 36%;
+}
+
+.dungbtn {
+  display: inline-block;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #A8AE98;
+  background-image: linear-gradient(to bottom, #6FC000, #388200);
+  font-family: 'Dosis', sans-serif;
+  position: absolute;
+  left: 10%;
+  margin-top: 87%;
+}
+
+.tortbtn {
+  display: inline-block;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #A8AE98;
+  background-image: linear-gradient(to bottom, #6FC000, #388200);
+  font-family: 'Dosis', sans-serif;
+  position: absolute;
+  right: 15%;
+  margin-top: 87%;
+}
+
+.bbeetle {
+  background-image: url("../img/beetle.svg");
+  background-size: 40px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  clear: both;
+  padding: 2em;
+  background-color: rgba(81, 34, 0, 0.5);
+
 }
