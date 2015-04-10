@@ -116,7 +116,7 @@ img {
 
 .antbtn {
   display: inline-block;
-  padding: 0em 2em;
+  padding: 0em 1em;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
@@ -130,7 +130,7 @@ img {
 
 .stagbtn {
   display: inline-block;
-  padding: 0em 2em;
+  padding: 0em 1em;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
@@ -144,7 +144,7 @@ img {
 
 .dungbtn {
   display: inline-block;
-  padding: 0em 2em;
+  padding: 0em 1em;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
@@ -158,7 +158,7 @@ img {
 
 .tortbtn {
   display: inline-block;
-  padding: 0em 2em;
+  padding: 0em 1em;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
