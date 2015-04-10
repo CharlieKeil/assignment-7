@@ -26,6 +26,10 @@ h1 {
   margin: 0;
 }
 
+nav {
+  padding-top: 1em;
+}
+
 .nav-top {
   width: 100%
 }
